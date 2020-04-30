@@ -1,0 +1,27 @@
+/* Code tidied up by ScrapBook */
+.sidr { display: none; position: fixed; top: 0px; height: 100%; z-index: 999999; width: 220px !important; overflow-y: auto; font-size: 15px; background: rgb(227, 5, 35) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+.sidr .sidr-inner { padding: 0px 0px 15px; }
+.sidr .sidr-inner > p { margin-left: 15px; margin-right: 15px; }
+.sidr.right { left: auto; right: -260px; }
+.sidr.left { left: -260px; right: auto; }
+.sidr h1, .sidr h2, .sidr h3, .sidr h4, .sidr h5, .sidr h6 { font-size: 11px; font-weight: normal; padding: 0px 15px; margin: 0px 0px 5px; color: rgb(255, 255, 255); line-height: 24px; }
+.sidr p { font-size: 13px; margin: 0px 0px 12px; }
+.sidr p a { color: rgba(255, 255, 255, 0.9); }
+.sidr > p { margin-left: 15px; margin-right: 15px; }
+.sidr ul { display: block; margin: 0px; padding: 0px; }
+.sidr ul li { display: block; text-align: left; margin: 0px; line-height: 40px; border-bottom: 1px solid rgb(255, 255, 255); }
+.sidr ul li:hover, .sidr ul li.active, .sidr ul li.sidr-class-active { border-top: medium none; }
+.sidr ul li:hover > a, .sidr ul li:hover > span, .sidr ul li.active > a, .sidr ul li.active > span, .sidr ul li.sidr-class-active > a, .sidr ul li.sidr-class-active > span { background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(227, 5, 35); }
+.sidr ul li a, .sidr ul li span { font-weight: bold; padding: 0px 15px; display: block; text-decoration: none; color: rgb(255, 255, 255); }
+.sidr ul li ul { border-bottom: medium none; margin: 0px; }
+.sidr ul li ul li { line-height: 40px; font-size: 13px; }
+.sidr ul li ul li:last-child { border-bottom: medium none; }
+.sidr ul li ul li:hover, .sidr ul li ul li.active, .sidr ul li ul li.sidr-class-active { border-top: medium none; line-height: 41px; }
+.sidr ul li ul li:hover > a, .sidr ul li ul li:hover > span, .sidr ul li ul li.active > a, .sidr ul li ul li.active > span, .sidr ul li ul li.sidr-class-active > a, .sidr ul li ul li.sidr-class-active > span {  }
+.sidr ul li ul li a, .sidr ul li ul li span { padding-left: 30px; font-weight: normal; }
+.sidr form { margin: 0px 15px; }
+.sidr label { font-size: 13px; }
+.sidr input[type="text"], .sidr input[type="password"], .sidr input[type="date"], .sidr input[type="datetime"], .sidr input[type="email"], .sidr input[type="number"], .sidr input[type="search"], .sidr input[type="tel"], .sidr input[type="time"], .sidr input[type="url"], .sidr textarea, .sidr select { width: 100%; font-size: 13px; padding: 5px; box-sizing: border-box; margin: 0px 0px 10px; border: medium none; background: rgba(0, 0, 0, 0.1) none repeat scroll 0% 0%; color: rgba(255, 255, 255, 0.6); display: block; clear: both; }
+.sidr input[type="checkbox"] { width: auto; display: inline; clear: none; }
+.sidr input[type="button"], .sidr input[type="submit"] { color: rgb(51, 51, 51); background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.sidr input[type="button"]:hover, .sidr input[type="submit"]:hover { background: rgba(255, 255, 255, 0.9) none repeat scroll 0% 0%; }
