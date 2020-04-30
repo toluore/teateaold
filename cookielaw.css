@@ -1,0 +1,37 @@
+/* Code tidied up by ScrapBook */
+#v-cookielaw { overflow: hidden; background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(68, 68, 68); z-index: 9999; font-size: 13px; }
+#v-cookielaw .v-message { padding: 5px 10px; text-align: left; }
+#v-cookielaw .v-actions {  }
+#v-cookielaw .v-button { color: rgb(34, 34, 34); display: inline-block; background-color: rgb(236, 236, 236); background-image: linear-gradient(rgb(244, 244, 244), rgb(236, 236, 236)); border: 1px solid rgb(212, 212, 212); padding: 4px 10px; text-decoration: none; text-shadow: 1px 1px 0px rgb(255, 255, 255); border-radius: 2px; }
+#v-cookielaw .v-button.v-accept::before { content: "✔"; }
+#v-cookielaw .v-button:hover, #v-cookielaw .v-button:focus { color: rgb(255, 255, 255); text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.3); border-color: rgb(48, 114, 179) rgb(48, 114, 179) rgb(42, 101, 160); background-color: rgb(42, 101, 160); background-image: linear-gradient(rgb(89, 155, 220), rgb(48, 114, 179)); }
+#v-cookielaw .v-button:active { border-color: rgb(42, 101, 160) rgb(42, 101, 160) rgb(56, 132, 205); background-color: rgb(48, 114, 179); background-image: linear-gradient(rgb(48, 114, 179), rgb(89, 155, 220)); }
+#v-cookielaw.v-bar { display: table; width: 100%; padding: 5px 0px; }
+#v-cookielaw.v-bar .v-message { display: table-cell; }
+#v-cookielaw.v-bar .v-actions { display: table-cell; vertical-align: middle; width: 250px; padding-right: 10px; text-align: right; }
+#v-cookielaw.v-bar.v-top { position: relative; border-bottom: 1px solid rgb(0, 0, 0); }
+#v-cookielaw.v-bar.v-bottom { position: fixed; bottom: 0px; border-top: 1px solid rgb(0, 0, 0); }
+#v-cookielaw.v-box { position: fixed; max-width: 300px; border: 1px solid rgb(0, 0, 0); border-radius: 3px; margin: 10px; }
+#v-cookielaw.v-box .v-actions { float: left; margin: 5px 10px; }
+#v-cookielaw.v-box.v-top-left { top: 0px; left: 0px; }
+#v-cookielaw.v-box.v-top-right { top: 0px; right: 0px; }
+#v-cookielaw.v-box.v-bottom-left { bottom: 0px; left: 0px; }
+#v-cookielaw.v-box.v-bottom-right { bottom: 0px; right: 0px; }
+@media (max-width: 480px) {
+  #v-cookielaw.v-box { display: table; width: 100% !important; padding: 5px 0px 0px; position: fixed; bottom: 0px !important; top: auto !important; border-width: 1px 0px 0px; border-style: solid none none; border-color: rgb(0, 0, 0) currentcolor currentcolor; max-width: 100%; margin: 0px; border-radius: 0px; }
+  #v-cookielaw.v-box .v-message { display: table-cell; }
+  #v-cookielaw.v-box .v-actions { display: table-cell; vertical-align: middle; width: 250px; padding-right: 10px; text-align: left; }
+  #v-cookielaw .v-message { float: left; }
+  #v-cookielaw .v-actions { float: left; margin: 5px 10px; }
+  #v-cookielaw.v-bar .v-actions { width: auto; }
+}
+#v-cookielaw.v-yellow-alert { background: rgb(255, 251, 205) none repeat scroll 0% 0%; border-color: rgb(226, 205, 123) !important; }
+#v-cookielaw.v-dark-clean { color: rgb(255, 255, 255); background: rgb(44, 44, 44) none repeat scroll 0% 0%; border-color: rgb(85, 87, 95) !important; }
+#v-cookielaw.v-dark-clean .v-button { color: rgb(255, 255, 255); text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.3); border-color: rgb(48, 114, 179) rgb(48, 114, 179) rgb(42, 101, 160); background-color: rgb(42, 101, 160); background-image: linear-gradient(rgb(89, 155, 220), rgb(48, 114, 179)); }
+#v-cookielaw.v-dark-clean .v-button:hover, #v-cookielaw.v-dark-clean .v-button:focus { background-color: rgb(54, 120, 160); background-image: linear-gradient(rgb(104, 171, 220), rgb(56, 124, 179)); }
+#v-cookielaw.v-minimalist { color: rgb(44, 44, 44); background: rgb(240, 240, 240) none repeat scroll 0% 0%; border-color: rgb(224, 224, 224) !important; font-size: 11px; font-family: Verdana; }
+#v-cookielaw.v-bar.v-minimalist { padding: 2px 0px; }
+#v-cookielaw.v-box.v-minimalist { width: 260px; }
+#v-cookielaw.v-box.v-minimalist .v-actions { margin: 5px; }
+#v-cookielaw.v-box.v-minimalist .v-message { padding: 5px; }
+#v-cookielaw.v-minimalist .v-button { padding: 3px 6px; }

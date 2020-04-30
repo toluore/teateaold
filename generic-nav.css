@@ -1,0 +1,62 @@
+/* Code tidied up by ScrapBook */
+.gen-direction-arrows1 a.previous, .gen-direction-arrows1 a.next { display: block; width: 30px; height: 30px; background-image: url("slider-arrows_001.png"); background-repeat: no-repeat; background-color: rgb(229, 229, 229); transition: background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s; }
+.gen-direction-arrows1 a.previous { background-position: -10px -10px; }
+.gen-direction-arrows1 a.previous:hover { background-position: -10px -60px; background-color: rgb(51, 51, 51); }
+.gen-direction-arrows1 a.next { background-position: -60px -10px; }
+.gen-direction-arrows1 a.next:hover { background-position: -60px -60px; background-color: rgb(51, 51, 51); }
+.gen-slider-arrows1 .direction-nav li { float: left; }
+.gen-slider-arrows1 .direction-nav a { display: block; width: 30px; height: 30px; background-image: url("slider-arrows_001.png"); background-repeat: no-repeat; background-color: rgb(229, 229, 229); cursor: pointer; text-decoration: none; text-indent: -999px; overflow: hidden; transition: opacity 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s; }
+.gen-slider-arrows1 .direction-nav a:hover { background-color: rgb(51, 51, 51); }
+.gen-slider-arrows1 .direction-nav a.disabled { opacity: 0.4; cursor: default; }
+.gen-slider-arrows1 .direction-nav a.disabled:hover { background-color: rgb(229, 229, 229); }
+.gen-slider-arrows1 .direction-nav .prev { background-position: -10px -10px; margin-right: 1px; }
+.gen-slider-arrows1 .direction-nav .prev:hover { background-position: -10px -60px; }
+.gen-slider-arrows1 .direction-nav .prev.disabled:hover { background-position: -10px -10px; }
+.gen-slider-arrows1 .direction-nav .next { background-position: -60px -10px; }
+.gen-slider-arrows1 .direction-nav .next:hover { background-position: -60px -60px; }
+.gen-slider-arrows1 .direction-nav .next.disabled:hover { background-position: -60px -10px; }
+.gen-slider-arrows1-pos-top-right .direction-nav { position: absolute; top: -40px; right: 0px; }
+.gen-slider-arrows1-pos-top-left .direction-nav { position: absolute; top: -40px; left: 0px; }
+.gen-slider-arrows2 .direction-nav { height: 0px; }
+.gen-slider-arrows2 .direction-nav a { position: absolute; display: block; width: 50px; height: 50px; background-image: url("slider-arrows.png"); background-repeat: no-repeat; cursor: pointer; text-decoration: none; text-indent: -999px; overflow: hidden; opacity: 0; }
+.gen-slider-arrows2:hover .direction-nav a { opacity: 1; }
+.gen-slider-arrows2:hover .direction-nav a.disabled { opacity: 0.4; }
+.gen-slider-arrows2 .direction-nav a:hover {  }
+.gen-slider-arrows2 .direction-nav a.disabled { cursor: default; }
+.gen-slider-arrows2 .direction-nav a.disabled:hover { background-color: rgb(255, 255, 255); }
+.gen-slider-arrows2 .direction-nav .prev { background-position: 0px 0px; left: 1.5%; top: 45%; }
+.gen-slider-arrows2 .direction-nav .prev:hover { background-position: 0px -50px; }
+.gen-slider-arrows2 .direction-nav .prev.disabled:hover { background-position: 0px 0px; }
+.gen-slider-arrows2 .direction-nav .next { background-position: -50px 0px; right: 1.5%; top: 45%; }
+.gen-slider-arrows2 .direction-nav .next:hover { background-position: -50px -50px; }
+.gen-slider-arrows2 .direction-nav .next.disabled:hover { background-position: -50px 0px; }
+.gen-slider-arrows2-style1 .direction-nav a { background-image: url("slideshow-arrows-solid.png"); background-color: transparent !important; }
+.gen-slider-arrows3 .direction-nav a { position: absolute; display: block; width: 30px; height: 30px; background-image: url("slider-arrows_001.png"); background-repeat: no-repeat; background-color: rgb(255, 255, 255); cursor: pointer; text-decoration: none; text-indent: -999px; overflow: hidden; transition: opacity 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s; }
+.gen-slider-arrows3 .direction-nav a:hover { background-color: rgb(51, 51, 51); }
+.gen-slider-arrows3 .direction-nav a.disabled { opacity: 0.4; cursor: default; }
+.gen-slider-arrows3 .direction-nav a.disabled:hover { background-color: rgb(255, 255, 255); }
+.gen-slider-arrows3 .direction-nav .prev { background-position: -10px -10px; top: 22px; left: -32px; }
+.gen-slider-arrows3 .direction-nav .prev:hover { background-position: -10px -60px; }
+.gen-slider-arrows3 .direction-nav .prev.disabled:hover { background-position: -10px -10px; }
+.gen-slider-arrows3 .direction-nav .next { background-position: -60px -10px; top: 22px; right: -32px; }
+.gen-slider-arrows3 .direction-nav .next:hover { background-position: -60px -60px; }
+.gen-slider-arrows3 .direction-nav .next.disabled:hover { background-position: -60px -10px; }
+.gen-slider-arrows3-style1 .direction-nav a { height: 75px; }
+.gen-slider-arrows3-style1 .direction-nav .prev { background-position: -10px 13px; top: 0px; left: -32px; }
+.gen-slider-arrows3-style1 .direction-nav .prev:hover { background-position: -10px -37px; }
+.gen-slider-arrows3-style1 .direction-nav .prev.disabled:hover { background-position: -10px 13px; }
+.gen-slider-arrows3-style1 .direction-nav .next { background-position: -60px 13px; top: 0px; right: -32px; }
+.gen-slider-arrows3-style1 .direction-nav .next:hover { background-position: -60px -37px; }
+.gen-slider-arrows3-style1 .direction-nav .next.disabled:hover { background-position: -60px 13px; }
+.gen-slider-pager1 .control-nav { text-align: center; }
+.gen-slider-pager1 .control-nav li { display: inline-block; margin: 0px 20px; }
+.gen-slider-pager1 .control-nav a { display: block; width: 20px; height: 20px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; border-radius: 50%; border: 1px solid rgb(255, 255, 255); cursor: pointer; text-decoration: none; text-indent: -999px; overflow: hidden; }
+.gen-slider-pager1 .control-nav a:hover { background: rgb(227, 5, 35) none repeat scroll 0% 0%; }
+.gen-slider-pager1 .control-nav a.active { background: rgb(227, 5, 35) none repeat scroll 0% 0%; cursor: default; }
+.gen-slider-pager1 .control-nav a.active:hover {  }
+.gen-slider-pager1-style1 .control-nav li { margin-left: 0px; }
+.gen-slider-pager1-style1 .control-nav a { background-image: url("pager-small.png"); }
+.gen-slider-pager1-pos-bottom-right .control-nav { position: absolute; bottom: 2%; width: 100%; z-index: 400; text-align: center; list-style: outside none none; }
+.gen-slider-pager1-pos-bottom-left .control-nav { position: absolute; bottom: 4.4526%; left: 1.5%; }
+.gen-slider-arrows1-pos-top-right-pager .control-nav { position: absolute; top: -33px; right: 71px; }
+.the-slideshow ul { list-style: outside none none !important; }
